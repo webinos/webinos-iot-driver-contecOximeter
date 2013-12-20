@@ -1,4 +1,4 @@
-webinos-driver-oximeter
+webinos-iot-driver-contecOximeter
 ===================
 
 Webinos oximeter driver handler that read data CONTEC Pulse Oximeter model CMS50E via bluetooth.

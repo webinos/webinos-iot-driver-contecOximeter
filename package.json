@@ -1,4 +1,4 @@
-{ "name": "webinos-driver-oximeter"
+{ "name": "webinos-iot-driver-contecOximeter"
 , "publishConfig": { "tag": "alpha" }
 , "description": "Contec Pulse Oximeter Driver"
 , "keywords": [ "webinos", "pulse", "oximeter", "driver"]
@@ -6,7 +6,8 @@
 , "homepage": "http://webinos.org/"
 , "author": "Ziran Sun <ziran.sun@samsung.com>"
 , "repository":
-  {
+  { "type": "git"
+  , "url": "https://github.com/webinos/webinos-iot-driver-contecOximeter.git"
   }
 , "bugs":
   { "email": "webinos-wp4-ml@fokus.fraunhofer.de"
@@ -17,6 +18,7 @@
 , "main": "./lib/driverHandle.js"
 , "dependencies":
   {
+    "serialport": "1.2.x"
   }
 , "bundleDependencies":
   [
